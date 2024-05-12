@@ -1,0 +1,16 @@
+Add Vars?
+    Disease Health Multiplier
+
+Distance for each speed in regular game
+    20-steady
+    30-strenuous
+    40-grueling
+
+
+coloring-
+    from ansi.color import fg, bg, fx, rgb
+    from ansi import cursor
+    def cl_color():
+        fg.default
+        bg.default
+        fx.normal
